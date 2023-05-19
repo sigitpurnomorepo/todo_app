@@ -1,0 +1,29 @@
+
+.register h3{
+    margin-bottom: 16px;
+}
+
+.register .row{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.register .row *{
+    width: 400px;
+    padding: 8px;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register .row button{
+    border: 0;
+    background-color: yellowgreen;
+}
+

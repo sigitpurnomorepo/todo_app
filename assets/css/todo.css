@@ -1,0 +1,48 @@
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 48px;
+    background-color: black;
+    color: white;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 24px 0;
+    gap: 16px;
+}
+
+.todo .card-wrapper{
+    border: 1px solid black;
+    width: 300px;
+    padding: 8px 1px;
+}
+
+.todo .card-wrapper h3{
+    text-align: center;
+}
+
+.todo .todo-item{
+    border: 1px solid black;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
