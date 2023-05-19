@@ -82,6 +82,15 @@ nav ul li a {
     background-color: green;
 }
 
+.floating-btn * {
+    position: fixed;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    bottom: 90px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
