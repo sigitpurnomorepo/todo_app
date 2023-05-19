@@ -1,20 +1,19 @@
-
-.register h3{
+.register h3 {
     margin-bottom: 16px;
 }
 
-.register .row{
+.register .row {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.register .row *{
+.register .row * {
     width: 400px;
     padding: 8px;
 }
 
-.register{
+.register {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,8 +21,8 @@
     height: 100vh;
 }
 
-.register .row button{
+.register .row button {
     border: 0;
     background-color: yellowgreen;
+    cursor: pointer;
 }
-

@@ -1,24 +1,35 @@
-
-
-nav{
+nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 48px;
+    padding: 16px 0;
+    width: 100%;
     background-color: black;
     color: white;
 }
 
+nav h3 {
+    margin-left: 20%;
+}
 
-nav ul{
+nav ul {
+    margin-right: 20%;
+}
+
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
     list-style-type: none;
 }
 
-.todo{
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.todo {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,23 +37,57 @@ nav ul{
     gap: 16px;
 }
 
-.todo .card-wrapper{
+.todo .card-wrapper {
     border: 1px solid black;
     width: 300px;
-    padding: 8px 1px;
+    padding: 8px 1px 2px 1px;
 }
 
-.todo .card-wrapper h3{
+.todo .card-wrapper h3 {
     text-align: center;
 }
 
-.todo .todo-item{
+.todo .todo-item {
     border: 1px solid black;
+    padding: 16px 24px 2px 24px;
+    margin-bottom: 2px;
 }
 
-.button-wrapper{
+.todo .todo-item h3 {
+    padding-bottom: 8px;
+}
+
+.todo .button-wrapper {
+    margin: 4px 0px;
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    align-items: center;
+    gap: 2px;
 }
 
+.todo .button-wrapper button {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: yellow;
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+.btn-done {
+    background-color: green;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+}

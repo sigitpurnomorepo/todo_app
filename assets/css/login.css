@@ -1,5 +1,4 @@
-
-.login{
+.login {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,22 +6,23 @@
     height: 100vh;
 }
 
-.login .row{
+.login .row {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.login .row *{
+.login .row * {
     width: 300px;
     padding: 8px;
 }
 
-.login h3{
+.login h3 {
     margin-bottom: 16px;
 }
 
-.login .row button{
+.login .row button {
     border: 0;
     background-color: yellowgreen;
+    cursor: pointer;
 }
