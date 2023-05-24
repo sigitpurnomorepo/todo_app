@@ -1,0 +1,79 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    padding: 16px 0;
+}
+
+nav h3 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile {
+    max-width: 70%;
+    margin: 24px auto;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.user img {
+    border-radius: 24px;
+}
+
+.task {
+    margin: 16px 0;
+}
+
+.task h3 {
+    text-align: center;
+}
+
+.task .task-wrapper {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.task .task-wrapper .card {
+    border: 1px solid black;
+    width: 33.3%;
+    padding: 12px;
+}
+
+.task .task-wrapper .card h3 {
+    padding: 8px 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+}
